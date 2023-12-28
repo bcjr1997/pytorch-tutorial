@@ -1,11 +1,13 @@
 # Setup
-## Create a new Python Environment
+## Install VirtualEnv if you do not have it in your Python Environment
+python3 -m pip install virtualenv
+## Create a new Python Environment using VirtualEnv
 ```
-python3 -m venv environment_name
+virtualenv env_name -p python3.11
 ```
 ## Activate the new Python Environment
 ```
-source env/bin/activate
+source env_name/bin/activate
 ```
 ## Install Python libraries with requirements.txt
 ```
