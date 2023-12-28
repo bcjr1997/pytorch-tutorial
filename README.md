@@ -1,6 +1,8 @@
 # Setup
 ## Install VirtualEnv if you do not have it in your Python Environment
+```
 python3 -m pip install virtualenv
+```
 ## Create a new Python Environment using VirtualEnv
 ```
 virtualenv env_name -p python3.11
